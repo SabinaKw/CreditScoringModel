@@ -43,7 +43,7 @@ The dataset comes from [UCI Machine Learning Repository](https://archive.ics.uci
 
 ## Final results:
 
-![Scores](https://user-images.githubusercontent.com/58105714/85950025-83580380-b95a-11ea-957c-71c992ceac96.PNG)
+![Scores](Data/Scores.PNG)
 
 During this analysis the best models to distinguish good and bad customers on this dataset were **SVM implemented with undersampled majority class** _(Gini = 0.495)_ and **Logistic regression with oversampled minority class (SMOTE)** _(Gini = 0.492)_. The models were evaluated based on Gini Coefficient that is common measure for credit risk models, however, the other scores such as Accuracy, Precision, Recalll, F1 and AUC were also verified. 
 
